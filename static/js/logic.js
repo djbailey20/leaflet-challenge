@@ -122,6 +122,7 @@ function createMap(earthquakes) {
         color: "orange",
         fillOpacity: 0,
         weight: 4,
+        interactive: false,
       },
     });
     faultlines.addLayer(faultLayer);
